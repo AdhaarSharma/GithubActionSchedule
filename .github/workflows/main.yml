@@ -2,7 +2,7 @@ name: nse_python
 
 on:
   schedule:
-    - cron: '45 * * * *' # runs at 12:00 UTC everyday
+    - cron: '0 * * * *' # runs at 12:00 UTC everyday
 
 jobs:
   build:
