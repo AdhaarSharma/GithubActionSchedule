@@ -30,4 +30,4 @@ jobs:
         env: 
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-        run: python NSE_Python.py
+        run: python AutomatedDataFetch.py
